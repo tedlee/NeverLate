@@ -9,7 +9,7 @@ my $mech = new WWW::Mechanize;
 ## 14 Digit integer on the bottom of Queen's student card
 my $barcode_number = "##############";
 
-## Replace last_name with your last name on your student card
+## Replace LAST_NAME with your last name on your student card
 my $last_name = "LAST_NAME";					
 $mech -> agent_alias('Linux Mozilla');
 
@@ -26,9 +26,9 @@ $mech->submit_form(
 		LN => "$last_name"
 	}
 );
+die unless ($mech->success);
 
 $mech->tick('RENEWID','0');
 $mech->submit();
 
-print $mech->content();
-idie unless ($mech->success);
+print "Finished!\n";
