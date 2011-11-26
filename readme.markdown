@@ -20,7 +20,7 @@ Ubuntu:
 
 Windows:
 
-	- See: [How to install Perl on Windows](http://lmgtfy.com/?q=How+to+install+Perl+on+Windows)
+- See: [How to install Perl on Windows](http://lmgtfy.com/?q=How+to+install+Perl+on+Windows)
 
 Ensure you have the required dependencies installed so, you know, the script runs. Then run:
 
