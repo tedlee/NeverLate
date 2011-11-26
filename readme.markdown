@@ -32,6 +32,7 @@ Ensure you have the required dependencies installed so, you know, the script run
 
 Required for running:  
 **WWW:Mechanize**  
+
     sudo perl -MCPAN -e 'install WWW::Mechanize' 
 
 **Remember folks, with great power, comes great responsability.**
